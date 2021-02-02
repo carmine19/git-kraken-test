@@ -20,13 +20,13 @@
                         @foreach($posts as $ele)
                             <tr>
                                 <td>
-                                    {{ $ele->id }}
+
                                 </td>
                                 <td>
-                                    {{ $ele->title }}
+
                                 </td>
                                 <td>
-                                    {{ $ele->subtitle }}
+
                                 </td>
                                 <td>
                                     <a href=""
