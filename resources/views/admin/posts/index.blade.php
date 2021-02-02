@@ -1,4 +1,4 @@
-@extends('layouts.dashboard')
+@extends('layouts.app')
 
 @section('content')
 
@@ -20,13 +20,13 @@
                         @foreach($posts as $ele)
                             <tr>
                                 <td>
-
+                                    {{$ele->id}}
                                 </td>
                                 <td>
-
+                                    {{$ele->name}}
                                 </td>
                                 <td>
-
+                                    {{$ele->img}}
                                 </td>
                                 <td>
                                     <a href=""
@@ -53,7 +53,7 @@
 
                 </table>
                 <div class="col-lg-12">
-                    <a href="{{route('admin.posts.create')}}" class="btn btn-info">Aggiungi post</a>
+                    <a href="" class="btn btn-info">Aggiungi post</a>
                 </div>
             </div>
         </div>
