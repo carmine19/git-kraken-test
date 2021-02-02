@@ -17,7 +17,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    public const HOME = '/home';
+    public const HOME = '/admin';
 
     /**
      * The controller namespace for the application.
@@ -49,6 +49,7 @@ class RouteServiceProvider extends ServiceProvider
         });
     }
 
+    protected $namespace = 'App\Http\Controllers';
     /**
      * Configure the rate limiters for the application.
      *
@@ -61,3 +62,6 @@ class RouteServiceProvider extends ServiceProvider
         });
     }
 }
+
+
+
